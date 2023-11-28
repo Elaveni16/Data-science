@@ -12,21 +12,23 @@ Improving customer retention and keeping your churn rate low is vital, especiall
 The data is from the Kaggle competition. It contains members' data with churn indicator and their usage details which include transaction and user logs. The dataset is huge and needs a lot of analysis on what data will be useful for churn predictions.
 Kaggle dataset
 Following are the table descriptions in the dataset –
-### a)	Train
+ a)	Train
 The train set, contains the user IDs and whether they have churned.
 
-### b)	Transactions
+ b)	Transactions
  Transaction of users 
 
-### c)	User logs
+ c)	User logs
 Daily user logs describing the listening behaviors of a user. Data collected until 2/28/2017.
 
-### d)	Members
+ d)	Members
 user information. 
 
 ## 3)	Metrics
 1)	The evaluation metric for this prediction is Log Loss
+
  ![logloss](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/docs/image/Logloss.png)	
+ 
 where i is the given observation/record, y is the actual/true value, p is the prediction probability, and ln refers to the natural logarithm (logarithmic value using base of e) of a number.
 2)	Apart from Log Loss, Recall and Precision will also be good evaluation metrics since the success of the prediction is based on the churn customer.
 
