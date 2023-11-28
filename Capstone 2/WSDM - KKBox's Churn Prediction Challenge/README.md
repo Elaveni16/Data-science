@@ -30,6 +30,7 @@ user information.
  ![logloss](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/docs/image/Logloss.png)	
  
 where i is the given observation/record, y is the actual/true value, p is the prediction probability, and ln refers to the natural logarithm (logarithmic value using base of e) of a number.
+
 2)	Apart from Log Loss, Recall and Precision will also be good evaluation metrics since the success of the prediction is based on the churn customer.
 
 ## 4)	Data cleaning and Data wrangling
