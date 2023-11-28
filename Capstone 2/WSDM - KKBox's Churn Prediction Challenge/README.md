@@ -14,39 +14,16 @@ Kaggle dataset
 Following are the table descriptions in the dataset –
 ### a)	Train
 The train set, contains the user IDs and whether they have churned.
-•	msno: user id
-•	is_churn: This is the target variable. Churn is defined as whether the user did not continue the subscription within 30 days of expiration. is_churn = 1 means churn is_churn = 0 means renewal.
+
 ### b)	Transactions
  Transaction of users 
-•	msno: user id
-•	payment_method_id: payment method
-•	payment_plan_days: length of membership plan in days
-•	plan_list_price: in New Taiwan Dollar (NTD)
-•	actual_amount_paid: in New Taiwan Dollar (NTD)
-•	is_auto_renew
-•	transaction_date: format %Y%m%d
-•	membership_expire_date: format %Y%m%d
-•	is_cancel: whether or not the user canceled the membership in this transaction.
+
 ### c)	User logs
 Daily user logs describing the listening behaviors of a user. Data collected until 2/28/2017.
-•	msno: user id
-•	date: format %Y%m%d
-•	num_25: # of songs played less than 25% of the song length
-•	num_50: # of songs played between 25% to 50% of the song length
-•	num_75: # of songs played between 50% to 75% of of the song length
-•	num_985: # of songs played between 75% to 98.5% of the song length
-•	num_100: # of songs played over 98.5% of the song length
-•	num_unq: # of unique songs played
-•	total_secs: total seconds played
+
 ### d)	Members
 user information. 
-•	msno
-•	city
-•	bd: age. Note: this column has outlier values ranging from -7000 to 2015, please use your judgment
-•	gender
-•	registered_via: registration method
-•	registration_init_time: format %Y%m%d
-•	expiration_date: format %Y%m%d, taken as a snapshot at which the member.csv is extracted. Not representing the actual churn behavior.
+
 ## 3)	Metrics
 1)	The evaluation metric for this prediction is Log Loss
  ![logloss](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/docs/image/Logloss.png)	
@@ -64,7 +41,9 @@ Feature engineering involves creating new features based on the available data. 
 A few of the new features extracted from transaction data are average plan amount, sum of discounts, total number of transactions, number of times the list price was changed, days difference between last transaction date and expiry date, etc.
 The log data, which contains everyday usage information is a very huge data and they were extracted in chunks. After reading the data in chunks, new features were created based on the user’s latest active three months of log usage. The user is going to churn or not based on the latest user experience, hence active 3 months of days was used for feature creation. New features like mean of unique songs, sum of the songs played 50% etc were created. Finally, the newly extracted features were combined with the member data.
 [Notebook - Data wrangling - Member](/notebooks/Data wrangling.ipynb)
+
 [Notebook - Data wrangling - Transaction](/notebooks/Data wrangling-%20-Transaction-%20feature.ipynb)
+
 [Notebook - Data wrangling - User log](/notebooks/Data wrangling-%20-user-%20log--%20Final-%20feature.ipynb)
 
 ## 5)	Exploratory Data Analysis
@@ -80,6 +59,7 @@ Feature selection technique:
 Based on the results from the correlation matrix and feature selection technique, each selected feature needs to be used for modeling to see which technique gives the best metrics.
 
 [Notebook - EDA Visualization](/notebooks/EDA-%20Visualization-feature-%20reduction.ipynb)
+
 [Notebook – Feature selection](/notebooks/EDA-feature-%20selection.ipynb)
 
 ## 6)	Preprocessing and Modeling
@@ -91,6 +71,7 @@ During the preprocessing step,
 After the preprocessing, various modeling algorithm was implemented with randomized CV to select the best hyperparameters. After selecting the best hyperparameter, the best one was implemented on the algorithm to find the final metrics. 
 
 [Notebook for Preprocessing](/notebooks/Preprocessing.ipynb)
+
 [Notebook for Modeling](/notebooks/Modeling.ipynb)
 
 ### Performance metrics
