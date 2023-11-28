@@ -48,7 +48,7 @@ The log data, which contains everyday usage information is a very huge data and 
 
 [Notebook for Data wrangling - Transaction](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling%20-Transaction%20feature.ipynb)
 
-[Notebook for Data wrangling - User log](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling%20-user%2%20log-%20Final%20feature.ipynb)
+[Notebook for Data wrangling - User log](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling%20-user%20log-%20Final%20feature.ipynb)
 
 ## 5)	Exploratory Data Analysis
 During the EDA process, independent features were visualized to see if there was any trend associated with the churn feature as shown below, outliers were visualized and removed, and correlation between the independent features was visualized using a correlation matrix. 
