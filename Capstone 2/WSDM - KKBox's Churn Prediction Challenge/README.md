@@ -2,7 +2,7 @@
 
 ## 1)	Problem Statement
 
- ![](/docs/image/churn.jpg)
+ ![hh](../WSDM% - KKBox's Churn Prediction Challenge/docs/image/churn.jpg)
  
 KKBOX is Asia’s leading music streaming service, holding the world’s most comprehensive Asia-Pop music library with over 30 million tracks. They offer a generous, unlimited version of their service to millions of people, supported by advertising and paid subscriptions. This delicate model is dependent on accurately predicting the churn of their paid users. For a subscription business, accurately predicting churn is critical to long-term success. Even slight variations in churn can drastically affect profits. Churn prediction is a process where companies use ML models to forecast which customers are at the highest risk of ending their patronage. Churn prediction uses customer data based on user behavior and usage.
 Different organizations define churn differently. For KKBOX, a user has churned if he has not renewed his subscription within 30 days of his current subscription expiry date.  By adopting different methods, KKBOX anticipates they’ll discover new insights as to why users leave so they can be proactive in keeping users dancing. For the organization to take proactive action, they need to find which user is at risk of going out of the subscription.
