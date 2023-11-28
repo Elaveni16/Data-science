@@ -43,11 +43,11 @@ The data size was reduced by changing the datatype size, for instance, while imp
 Feature engineering involves creating new features based on the available data. Since the user usage data is transaction and log, creating new features is the key to successful churn prediction. More than 100 features were created based on the transaction and log data.
 A few of the new features extracted from transaction data are average plan amount, sum of discounts, total number of transactions, number of times the list price was changed, days difference between last transaction date and expiry date, etc.
 The log data, which contains everyday usage information is a very huge data and they were extracted in chunks. After reading the data in chunks, new features were created based on the user’s latest active three months of log usage. The user is going to churn or not based on the latest user experience, hence active 3 months of days was used for feature creation. New features like mean of unique songs, sum of the songs played 50% etc were created. Finally, the newly extracted features were combined with the member data.
-[Notebook - Data wrangling - Member](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data wrangling.ipynb)
+[Notebook - Data wrangling - Member](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling.ipynb)
 
-[Notebook - Data wrangling - Transaction](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data wrangling-%20-Transaction-%20feature.ipynb)
+[Notebook - Data wrangling - Transaction](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling-%20-Transaction-%20feature.ipynb)
 
-[Notebook - Data wrangling - User log](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data wrangling-%20-user-%20log--%20Final-%20feature.ipynb)
+[Notebook - Data wrangling - User log](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling-%20-user-%20log--%20Final-%20feature.ipynb)
 
 ## 5)	Exploratory Data Analysis
 During the EDA process, independent features were visualized to see if there was any trend associated with the churn feature as shown below, outliers were visualized and removed, and correlation between the independent features was visualized using a correlation matrix. 
