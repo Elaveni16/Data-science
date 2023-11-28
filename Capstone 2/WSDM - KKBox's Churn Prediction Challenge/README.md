@@ -44,11 +44,11 @@ Feature engineering involves creating new features based on the available data. 
 A few of the new features extracted from transaction data are average plan amount, sum of discounts, total number of transactions, number of times the list price was changed, days difference between last transaction date and expiry date, etc.
 The log data, which contains everyday usage information is a very huge data and they were extracted in chunks. After reading the data in chunks, new features were created based on the user’s latest active three months of log usage. The user is going to churn or not based on the latest user experience, hence active 3 months of days was used for feature creation. New features like mean of unique songs, sum of the songs played 50% etc were created. Finally, the newly extracted features were combined with the member data.
 
-[Notebook - Data wrangling - Member](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling.ipynb)
+[Notebook for Data wrangling - Member](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling.ipynb)
 
-[Notebook - Data wrangling - Transaction](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling%20-Transaction%20feature.ipynb)
+[Notebook for Data wrangling - Transaction](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling%20-Transaction%20feature.ipynb)
 
-[Notebook - Data wrangling - User log](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling%20-user%2%20log-%20Final feature.ipynb)
+[Notebook for Data wrangling - User log](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/Data%20wrangling%20-user%2%20log-%20Final%20feature.ipynb)
 
 ## 5)	Exploratory Data Analysis
 During the EDA process, independent features were visualized to see if there was any trend associated with the churn feature as shown below, outliers were visualized and removed, and correlation between the independent features was visualized using a correlation matrix. 
@@ -62,9 +62,9 @@ Feature selection technique:
 
 Based on the results from the correlation matrix and feature selection technique, each selected feature needs to be used for modeling to see which technique gives the best metrics.
 
-[Notebook - EDA Visualization](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/EDA-%20Visualization-feature%20reduction.ipynb)
+[Notebook for EDA Visualization](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/EDA-%20Visualization-feature%20reduction.ipynb)
 
-[Notebook – Feature selection](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/EDA-feature%20selection.ipynb)
+[Notebook for EDA Feature selection](../WSDM%20-%20KKBox's%20Churn%20Prediction%20Challenge/notebooks/EDA-feature%20selection.ipynb)
 
 ## 6)	Preprocessing and Modeling
 During the preprocessing step, 
