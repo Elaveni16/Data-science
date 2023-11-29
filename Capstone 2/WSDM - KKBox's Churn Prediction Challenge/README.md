@@ -89,9 +89,14 @@ Further feature engineering can be done to find hidden features that might produ
 
 ## 9)	Recommendation
 To improve customer satisfaction and the retain the customer following can be implemented:
+
 a.	Get to the root of customer churn by getting customer feedback
+
 b.	Offer personalized and proactive customer communication
+
 c.	Reward customer loyalty
+
 d.	Follow up with customers
+
 e.	Provide customized user experience in the music based on the customer segmentation
 
