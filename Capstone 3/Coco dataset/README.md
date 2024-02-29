@@ -63,16 +63,16 @@ e)	Finally, the BLEU score is generated for the predicted captions compared to t
 ## Sample predictions
 Predicted Caption: a woman holding an umbrella in front of a building
 Bleu score: 0.70
-
+![1](../Coco%20dataset/Image/1.png)
                                   
 Predicted Caption: a plate of food with a fork on it
 Bleu score: 0.20
-
-                                     
+![1](../Coco%20dataset/Image/2.png)
+                                   
 Predicted Caption: a man is carrying luggage down a street
 Bleu score: 0.45
-
-                                      
+![1](../Coco%20dataset/Image/3.png)
+                                    
 7) Conclusions
 The Image Captioning model generated reasonable captions, especially human-readable ones. The caption fits most of the objects in the image and produces a conceptually correct sentence. However, some captions could be improved. The BLEU score metrics show how close the predictions were with the reference captions. BLEU score is tricky to evaluate since an image can have multiple captions and there is no one definite right caption affecting the score generated.
 8) Idea for further research
