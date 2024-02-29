@@ -25,7 +25,7 @@ Notebook for Image Captioning Model
 
 ## Image Captioning Architecture
  
-![archi](Transformer%Architecture.jpg)
+![archi](../Coco%20dataset/Image/Transformer%20Architecture.jpg)
 
 ### a)	 CNN Model
 
