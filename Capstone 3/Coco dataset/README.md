@@ -23,8 +23,8 @@ Finally, the preprocessed image and text are randomly divided into train and val
 
 ## 5) Modeling
 The architecture of the Image Captioning model involves various deep neural network models like the CNN (Convolutional Neural Network) model for image feature extraction, the Transformer encoder to encode the input images, and the Transformer decoder for decoding the output captions for the image. Eventually, the output from the encoder is sent to the decoder, and output probabilities are generated from the decoder. 
-Notebook for Image Captioning Model
 
+[Notebook for Modeling](../Coco%20dataset/ImageCap-CocoDS.ipynb)
 
 ## Image Captioning Architecture
  
