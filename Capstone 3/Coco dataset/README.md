@@ -25,7 +25,7 @@ Notebook for Image Captioning Model
 
 ## Image Captioning Architecture
  
-![archi](../Capstone%3/Transformer%Architecture.jpg)
+![archi](Transformer%Architecture.jpg)
 
 ### a)	 CNN Model
 
