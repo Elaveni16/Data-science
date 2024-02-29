@@ -9,6 +9,7 @@ The real-world scenarios where this can be useful are as follows:
 5)	Security and Surveillance – Describing events and objects in security camera footage to aid in identifying security threats or incidents in real-time. This can help in raising alarm as soon as there is any malicious activity going on.
 ## 2) Data
 The COCO (Common Object and Context) dataset contains 120K images with respective captions. It is a very diverse dataset with multiple captions for an image.
+
 https://cocodataset.org/#download
 
 ## 3) Metrics
@@ -23,8 +24,8 @@ Finally, the preprocessed image and text are randomly divided into train and val
 
 ## 5) Modeling
 The architecture of the Image Captioning model involves various deep neural network models like the CNN (Convolutional Neural Network) model for image feature extraction, the Transformer encoder to encode the input images, and the Transformer decoder for decoding the output captions for the image. Eventually, the output from the encoder is sent to the decoder, and output probabilities are generated from the decoder. 
-Notebook for Image Captioning Model
 
+[Notebook for Modeling](../Coco%20dataset/ImageCap-CocoDS.ipynb)
 
 ## Image Captioning Architecture
  
