@@ -29,7 +29,7 @@ The architecture of the Image Captioning model involves various deep neural netw
 
 ## Image Captioning Architecture
  
-![archi](../Coco%20dataset/Image/Transformer%20Architecture.jpg)
+![archi](../Coco%20dataset/Image/Transformer%20Architecture85.jpg)
 
 ### a)	 CNN Model
 
